@@ -12,7 +12,8 @@ body{
     width: 100vw;
     height: 60vh;
     border: 10px solid white;
-    margin-top: 15vh;   
+    margin-top: 15vh;  
+     
 }
 .box{
     
@@ -20,15 +21,17 @@ body{
     margin: 0 auto;
     margin-top: 7%;
     
+    
 }
-.kill{
-    width: 100%;
-}
+
 .game{
     height: 100%;
     width: 30vw;
     text-align: center;
     margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 2px;
+    background-color: black;
 }
 .selector{
     display: inline-block;
@@ -56,6 +59,7 @@ body{
     border: 1px solid;
     padding: 9%;
     font-size: 2rem;
+    
 }
 .restart{
     display: inline-block;
