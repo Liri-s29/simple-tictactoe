@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0 2%;
+    margin: 0;
+    background-image: linear-gradient(90deg, #baffb3, #ffee82);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: larger;
+}
+.section{
+    width: 30vw;
+    height: 60vh;
+    border: 10px solid white;
+    margin-top: 15vh;   
+}
+.box{
+    border: none;
+    margin: 0 auto;
+    margin-top: 7%;
+    
+}
+.kill{
+    width: 100%;
+}
+.game{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.selector{
+    margin: 0;
+    width: 49.4%;
+    background-color: white;
+    height: 10%;
+    border: 1px solid black;
+}
+.row{
+    height: 30%;
+    width: 100%;
+    margin: 0;
+}
+.item{
+    height: 100%;
+    width: 33.3222%;
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: 1px solid;
+    padding: 10%;
+}
+.restart{
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
