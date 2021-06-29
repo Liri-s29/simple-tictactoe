@@ -1,7 +1,6 @@
 body{
     width: 100%;
     height: 100%;
-    padding: 0 2%;
     margin: 0;
     background-image: linear-gradient(90deg, #baffb3, #ffee82);
     display: flex;
@@ -10,12 +9,13 @@ body{
     font-size: larger;
 }
 .section{
-    width: 30vw;
+    width: 100vw;
     height: 60vh;
     border: 10px solid white;
     margin-top: 15vh;   
 }
 .box{
+    
     border: none;
     margin: 0 auto;
     margin-top: 7%;
@@ -26,16 +26,22 @@ body{
 }
 .game{
     height: 100%;
-    width: 100%;
+    width: 30vw;
     text-align: center;
     margin: 0 auto;
 }
 .selector{
+    display: inline-block;
     margin: 0;
-    width: 49.4%;
+    width: 49.4329599%;
     background-color: white;
     height: 10%;
     border: 1px solid black;
+}
+.selector:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 .row{
     height: 30%;
@@ -46,13 +52,27 @@ body{
     height: 100%;
     width: 33.3222%;
     display: inline;
-    background-color: rgba(255, 255, 255, 0.178);
+    background-image: linear-gradient(135deg, #ffee82, #ffa3d3);
     border: 1px solid;
-    padding: 10%;
+    padding: 9%;
+    font-size: 2rem;
 }
 .restart{
     display: inline-block;
     width: 100%;
     height: 10%;
     background-color: white;
+}
+.footer{
+    text-align: center;
+    width: 100vw;
+    margin-top: 5vh;
+}
+@media (max-width: 500px){
+    .section{
+        margin-top: 20vh;
+    }
+    .game{
+        width: 98vw;
+    }
 }
